@@ -1,6 +1,6 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [NamelessWolf](https://up.htmlacademy.ru/adaptive/19/user/611253).
+* Студент: [Nameless Wolf](https://up.htmlacademy.ru/adaptive/19/user/611253).
 * Наставник: `Неизвестно`.
 
 ---
