@@ -4,33 +4,42 @@
     <meta charset="utf-8">
     <title>Седона</title>
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/outlines.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
   </head>
   <body>
     
     <header class="page-header">
-      <div class="main-nav__wrapper">
+      <div class="page-header__wrapper">
         <nav class="main-nav">
-          <ul class="main-nav__list">
-            <li class="main-naw__item main-nav__item--active">
-              <a class="main-nav__link">Главная</a>
-            </li>
-            <li class="main-nav__item">
-              <a href="photo.html" class="main-nav__link">Фото и видео</a>
-            </li>
-            <li class="main-nav__item">
-              <a href="form.html" class="main-nav__link">Форма отзыва</a>
-            </li>
-            <li class="main-nav__item">
-              <a href="https://htmlacademy.ru" class="main-nav__link">HTML academy</a>
-            </li>
-          </ul>
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list">
+              <li class="main-nav__item main-nav__item--active">
+                <a class="main-nav__link">Главная</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="photo.html" class="main-nav__link">Фото и видео</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="form.html" class="main-nav__link">Форма отзыва</a>
+              </li>
+              <li class="main-nav__item">
+                <a href="https://htmlacademy.ru" class="main-nav__link">HTML academy</a>
+              </li>
+            </ul>
+            <button class="main-nav__toggle main-nav__toggle--close" type="button">Закрыть меню</button>
+          </div>  
         </nav>
+        <a class="page-header__logo">
+          <img class="page-header__logo-image" src="img/logotyle-mobile-svg.svg" width="102px" height="83px" alt="Логотип сайта">
+        </a>
+        <button class="main-nav__toggle main-nav__toggle--open" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="22.928" height="21.982" version="1" viewBox="0 0 22.928 21.982">
+          <path d="M0 0h22.928v3.964H0zM0 9.009h22.928v3.964H0zM0 18.018h22.928v3.964H0z"/>
+          </svg>
+        </button>
       </div>
-      <a class="page-header__logo">
-        <img class="page-header__logo-image" src="img/logotyle-mobile-svg.svg" width="102px" height="83px" alt="Логотип сайта">  
-      </a>
-      <button class="main-nav__toggle" type="button">Открыть меню</button>
     </header>
     
     
@@ -45,8 +54,8 @@
       </section>
       
       <section class="page-intro">
-        <h1 class="page-intro__title">Седона - небольшой городок в Аризоне, заслуживающий большего!</h1>
-        <p class="page-intro__headline">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+        <h2 class="page-intro__title">Седона — небольшой <br>городок в Аризоне, <br>заслуживающий большего!</h2>
+        <p class="page-intro__headline">Рассмотрим 5 причин, по которым <br>Седона круче, чем Гранд Каньон!</p>
       </section>
       
       <section class="advantages">
@@ -55,9 +64,9 @@
               <ol class="advantages__list">
                 <li class="advantages__item advantage advantage--real">
                   <h3 class="advantage__title">Настоящий городок</h3>
-                    <span class="advantage__number">-№1-</span>
-                    <p class="advantage__description">Седона не аттракцион для туристов, там течет своя жизнь</p>
-                    <img class="advantage__image" src="#" alt="Виды города">
+                    <span class="advantage__number">— №1 —</span>
+                    <p class="advantage__description">Седона не аттракцион для туристов,<br>там течет своя жизнь</p>
+                    <img class="advantage__image" width="320px" height="260px" src="img/main-city-mobile@1x.jpg" alt="Виды города">
                       <ul class="advantage__tiny-list tiny-advantage">
                         <li class="tiny-advantage__item tiny-advantage__item--quarters">
                           <h4 class="tiny-advantage__title">Жильё</h4>
@@ -75,23 +84,23 @@
                 </li>
                 <li class="advantages__item advantage advantage--devils-bridge">
                   <h3 class="advantage__title">Там есть мост дьявола</h3>
-                  <span class="advantage__number">-№2-</span>
+                  <span class="advantage__number">— №2 —</span>
                   <p class="advantage__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
                   <img class="advantage__image" src="#" alt="Мост дьявола">
                 </li>
                 <li class="advantages__item advantage--small">
                   <h4 class="advantage__title">Небольшая площадь</h4>
-                  <span class="advantage__number">-№3-</span>
+                  <span class="advantage__number">— №3 —</span>
                   <p class="advantage__description">Все интересные места находятся очень близко</p>
                 </li>
                 <li class="advantages__item advantage--small">
                   <h4 class="advantage__title">Красивая дорога</h4>
-                  <span class="advantage__number">-№4-</span>
+                  <span class="advantage__number">— №4 —</span>
                   <p class="advantage__description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
                 </li>
                 <li class="advantages__item advantage--small">
                   <h4 class="advantage__title">Мало туристов</h4>
-                  <span class="advantage__number">-№5-</span>
+                  <span class="advantage__number">— №5 —</span>
                   <p class="advantage__description">Большинство едет в Гранд Каньон и толпится там</p>
                 </li>
               </ol>
