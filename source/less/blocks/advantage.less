@@ -1,6 +1,5 @@
 .advantage {
-  margin: 43px 0;
-  padding: 22px 0;
+  padding: 22px 0 0;
 }
 
 .advantage__title {
@@ -18,23 +17,50 @@
   line-height: 21px;
 }
 
-advantage__description {
+.advantage__description {
  display: block;
-  
 }
 
-.advantage .advantage__title,
-.advantage .advantage__number, 
-.advantage .advantage__description {
+.advantage {
   color: white;
 }
 
-.advantage--real, 
+.advantage--real,
 .advantage--devils-bridge {
   background-color: #81b3d2;
 }
 
 .advantage__image {
   display: block;
-  margin: 39px auto;
+  margin: 39px auto 0;
+}
+
+.advantage--small .advantage__title {
+  color: black;
+}
+
+.advantage--small {
+  background-color: lightgrey;
+  color: #333333;
+  padding: 8px 0;
+  position: relative;
+}
+
+.advantage--small::after {
+  background-color: black;
+  content: "";
+  height: 1px;
+  left: 50%;
+  margin-left: -140px;
+  position: absolute;
+  opacity: 0.1;
+  bottom: -5px;
+  width: 280px;
+  z-index: 10;
+}
+
+.advantage__tiny-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
