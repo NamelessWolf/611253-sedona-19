@@ -1,5 +1,7 @@
 @import "grid.less";
 @import "normalize.less";
+@import "mixins.less";
+@import "variables.less";
 @import "blocks/advantage.less";
 @import "blocks/advantages.less";
 @import "blocks/booking.less";
@@ -60,4 +62,12 @@ input[type="radio"].visually-hidden {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+@media (min-width: @tablet-width) {
+  min-width: 768px;
+}
+
+* {
+  outline: 1px solid red;
 }

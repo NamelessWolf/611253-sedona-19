@@ -1,6 +1,10 @@
+.main-nav {
+  min-width: 320px;
+  margin: 0 auto;
+}
+
 .main-nav__wrapper {
   display: flex;
-  min-width: 320px;
   position: relative;
 }
 
@@ -77,4 +81,20 @@
   position: absolute;
   top: 235px;
   width: 27px;
+}
+
+@media (min-width: @tablet-width) {
+  .main-nav {
+    width: auto;
+    margin: 0;
+  }
+
+  .main-nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: @desktop-width) {
+
 }
